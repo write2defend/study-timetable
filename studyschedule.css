@@ -1,0 +1,183 @@
+/* week 1 styling */
+#week-1{
+  font-family: Courier New;
+  font-size: 18px;
+  color: #ffd3b6;
+  background-color: #e0f7fa;
+  border-radius: 35px;
+
+}
+
+/* week 2 styling */
+#week-2{
+font-family: Courier New;
+font-size: 18px;
+color: #ffffff;  
+background-color: #fff4c2;
+border-radius: 35px;
+}
+
+/* week 3 styling */
+#week-3{
+  font-family: Courier New;
+  font-size: 18px;
+  color: #ffd3b6;  
+  background-color: #e0f7fa;
+  border-radius: 35px;
+}
+
+/* week 4 styling */
+#week-4{
+  font-family: Courier New;
+  font-size: 18px;
+  color: #ffffff;  
+  border-radius: 35px;
+  background-color: #fff4c2;
+  
+}
+
+h1{
+  font-family: Times New Roman;
+  font-size: 30px;
+  color: #64c4b8;
+  text-align: center;
+  padding-top: 5px; 
+  
+  }
+
+h2{
+
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+
+}
+
+h3{
+
+  font-family: Times New Roman;
+  font-size: 18px;
+  text-align: center;
+  color: #64c4b8;
+
+}
+
+/* Qoutes */
+.quote{
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 530;
+  font-size: 18px;
+  border: 3px dashed #fff;
+  border-radius: 20px;
+  padding: 18px 18px;
+  color: #ffd3b6;
+  background-color: #226c61;
+}
+
+.quote-1{
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 530;
+  font-size: 16px;
+  border: 3px dashed #fff;
+  border-radius: 20px;
+  padding: 18px 50px;
+  color: #ffd3b6;
+  background-color: #226c61;
+}
+
+.quote-2{
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 530;
+  font-size: 16px;
+  border: 3px dashed #fff;
+  border-radius: 20px;
+  padding: 18px 18px;
+  color: #226c61;
+  background-color: #ffd3b6;
+}
+
+/* Table styling */
+ table{
+  width: 100%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  margin: 0 auto;
+
+}
+
+th{
+  text-align: center;
+  border: 2px solid #ddd;
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: #64c4b8;
+}
+
+tr, td{
+  border: 3px solid #fff;
+  padding: 5px 8px;
+  color: #2c2c2c;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.table-wrapper{
+  overflow-x:auto;
+  width: 100%;
+}
+
+@media (max-width: 768px){
+  table{
+  font-size: 14px;
+  min-width: 600px;
+  }
+}
+
+/* Rest day styling */
+.day{
+  background-color: #d9f5ec;
+  color: #2c2c2c;
+  width: 20%;
+  text-align: center;
+
+}
+
+/* Subjects styling */
+.subject-Eng{
+  background-color: #e6e0f8;
+}
+
+.subject-Math{
+  background-color: #fff4c2;
+}
+
+.subject-Acc{
+  background-color: #ffd3b6; 
+}
+
+.subject-LS{
+  background-color: #c8e6c9;
+}
+
+.subject-LO{
+  background-color:#ffe0b2;
+}
+
+.subject-Physics{
+  background-color: #cce5ff;
+}
+
+.subject-Afr{
+  background-color: #64c4b2;
+}
+
+  
