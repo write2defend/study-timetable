@@ -16,7 +16,7 @@ This is a simple HTML + CSS web project displaying a 4-week study schedule. It h
 
 ## 💡 Live Demo
 
-View the project live here:[Study Timetable](https://write2defend.github.io/study-timetable/)
+View the project live here: [Study Timetable](https://write2defend.github.io/study-timetable/)
 
 ---
 
