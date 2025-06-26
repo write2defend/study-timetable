@@ -131,8 +131,9 @@ tr, td{
 }
 
 .table-wrapper{
-  overflow-x:auto;
+  border-collapse: collapse;
   width: 100%;
+  min-width: 600px;
 }
 
 @media (max-width: 768px){
