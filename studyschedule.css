@@ -133,7 +133,7 @@ tr, td{
 .table-wrapper{
   border-collapse: collapse;
   width: 100%;
-  min-width: 600px;
+  min-width: 700px;
 }
 
 .table-container {
