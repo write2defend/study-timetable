@@ -51,7 +51,7 @@ downloadButton.addEventListener("click", function () {
             // Create temporary download link
             const a = document.createElement("a");
             a.href = URL.createObjectURL(blob);
-            a.download = "studyschedule.html";
+            a.download = "index.html";
 
             // Trigger the download
             a.click();
