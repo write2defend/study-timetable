@@ -1,86 +1,217 @@
-/* week 1 styling */
-#week-1{
-  font-family: Courier New;
-  font-size: 18px;
-  color: #ffd3b6;
-  background-color: #e0f7fa;
-  border-radius: 35px;
+body{
+  background-color:#F7F7FA;
+}
 
+/* week 1 -4 styling */
+#week-1, #week-2, #week-3, #week-4{
+  font-family: Courier New,'Monospace';
+  font-size: 18px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* week 2 styling*/
+#week-1{
+  color: #ffd3b6;
+  background-color: #E3F2FD;
 }
 
 /* week 2 styling */
 #week-2{
-font-family: Courier New;
-font-size: 18px;
 color: #ffffff;  
-background-color: #fff4c2;
-border-radius: 35px;
+background-color: #FFF3E0;
 }
 
 /* week 3 styling */
 #week-3{
-  font-family: Courier New;
-  font-size: 18px;
   color: #ffd3b6;  
-  background-color: #e0f7fa;
-  border-radius: 35px;
+  background-color: #E8F5E9;
 }
 
 /* week 4 styling */
 #week-4{
-  font-family: Courier New;
-  font-size: 18px;
   color: #ffffff;  
-  border-radius: 35px;
-  background-color: #fff4c2;
+  background-color: #F3E5F5;
   
 }
+
+/* Page Headings */ 
 
 h1{
-  font-family: Times New Roman;
-  font-size: 30px;
-  color: #64c4b8;
+  font-family: PT Serif, 'Sans-serif';
+  font-size: 50px;
+  color: #3A6EA5;
   text-align: center;
   padding-top: 5px; 
-  
-  }
+}
 
 h2{
-
   font-family: sans-serif;
-  font-weight: 700;
-  color: #000;
+  font-weight: 850;
+  color: #3A6EA5;
+  text-align: center;
+  margin:0;
+  margin-bottom: 8px;
+}
+
+/* Quotes */
+#quote-box{
+ max-width: 600px;
+ text-align: center;
+ font-family: PT Serif, 'sans-serif';
+ font-style: italic;
+ font-size: 25px;
+ border-left: 15px solid #64c4b8;
+ border-radius: 20px;
+ margin: 16px auto;
+ padding: 15px 20px;
+ color: #2c2c2c;
+ background: #fff;
+ box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+
+#new-quote-bttn, #download-html{
+  display: block;
+  color: #fff;
+  font-size: 25px;
+  font-style: bold;
+  background-color: #3A6EA5;
+  border: none;
+  margin: 16px auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 30%; 
+}
+ 
+ 
+ hr{
+  margin-top: 50px;
+ }
+
+/* Table styling */
+ table{
+  width: 100%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th{
+  text-align: center;
+  border: 2px solid #E0E0;
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #3A6EA5;
+  background-color: #64c4b8;
+}
+
+tr, td{
+  border: 3px solid #fff;
+  padding: 5px 8px;
+  color: #2c2c2c;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.table-wrapper{
+  overflow-x:auto;
+  width: 100%;
+}
+
+/* Rest day styling */
+.day{
+  font-size: 30px;
+  font-style: bold;
+  background-color: #2c2c2c;
+  opacity: 25%;
+  color: #fff;
+  width: 20%;
   text-align: center;
 
 }
 
-h3{
-
-  font-family: Times New Roman;
-  font-size: 18px;
-  text-align: center;
-  color: #64c4b8;
-
+/* Subjects styling */
+.subject-Eng{
+  background-color: #5AA9E6;
 }
 
-/* Qoutes */
-.quote{
-  font-family: serif;
-  font-style: italic;
-  text-align: center;
-  font-weight: 530;
-  font-size: 18px;
-  border: 3px dashed #fff;
-  border-radius: 20px;
-  padding: 18px 18px;
-  color: #ffd3b6;
-  background-color: #226c61;
+.subject-Math{
+  background-color: #FF6F61;
 }
 
-.quote-1{
-  font-family: serif;
-  font-style: italic;
-  text-align: center;
+.subject-Acc{
+  background-color: #7CE0D3; 
+}
+
+.subject-LS{
+  background-color: #8BC34A;
+}
+
+.subject-LO{
+  background-color:#B388FF;
+}
+
+.subject-Physics{
+  background-color: #3F51B5;
+}
+
+.subject-Afr{
+  background-color: #FFC875;
+}
+
+
+/* Media Query for Phones and Tablets */ 
+
+
+/* Phones: max-width 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto; 
+  }
+
+  table {
+    font-size: 12px;
+    width: 100%;
+    min-width: unset; 
+  }
+
+  th, td {
+    padding: 6px 4px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  #new-quote-bttn, #download-html {
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+/* Tablets: Max-width: 768 */
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+    min-width: 600px;
+  }
+}  text-align: center;
   font-weight: 530;
   font-size: 16px;
   border: 3px dashed #fff;
