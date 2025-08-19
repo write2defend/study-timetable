@@ -1,6 +1,6 @@
 # 🗓️ My Study Timetable
 
-This is a simple HTML + CSS web project displaying a 4-week study schedule. It helps track subjects, study times, and locations across different days of the week.
+This is a simple HTML + CSS & JavaScript web project displaying a 4-week study schedule. It helps track subjects, study times, and locations across different days of the week. Users can change subjects, places, and timings to suit their needs.
 
 ---
 
@@ -10,7 +10,8 @@ This is a simple HTML + CSS web project displaying a 4-week study schedule. It h
 - 🎯 Subject-based color coding
 - 📱 Mobile responsive table layout
 - 💬 Motivational quotes for encouragement
-- 💖 Custom styling with a personal touch
+- 📑 Editable content
+
 
 ---
 
@@ -24,3 +25,4 @@ View the project live here: [Study Timetable](https://write2defend.github.io/stu
 
 - HTML5
 - CSS3
+- JavaScript
